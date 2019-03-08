@@ -1,4 +1,4 @@
-e1c3640add5b4ee2a4412de6b7dfdc95 *DESCRIPTION
+d31c9f47836c38de9644d4f6910a45d5 *DESCRIPTION
 b851c35f3c1d02f988cadc26858e04cf *LICENSE
 afcf484924dff5b4564d1377b884dbc8 *NAMESPACE
 3f2a9261656be9d374a3132f6a116c89 *R/carto_pal.R
@@ -8,10 +8,10 @@ d759fa92185ded4b72fa4653c3602c88 *R/display_carto_all.R
 5fbbe4effea6f9f5a2401f71b81d8a81 *R/display_carto_pal.R
 baa5d98dfa39c19c0ad43caeb0289676 *R/metacartocolors.R
 893ca9f43253a5f881379b5a1232011f *README.md
-9b1175f8a4ab22e095ecdf4304c49c88 *data/cartocolors.rda
-35c84597c4ca2dbd7911d7f94071205e *data/metacartocolors.rda
+7c77b14c9947634d5bd45fa9364bed68 *data/cartocolors.rda
+abf333fc53a50b7d655062509f2af0de *data/metacartocolors.rda
 83353166cfa6c8ebea6b515fcb3c7e50 *man/carto_pal.Rd
-d2a9a40dd54a27a3acb9c5be09638d32 *man/carto_scale.Rd
+73dba0ef804dfe8f7e40347baade8b2b *man/carto_scale.Rd
 16ceb5db77f1762452c5b8b52152b79d *man/cartocolors.Rd
 26f74cddb19a3394498d161651c998d9 *man/display_carto_all.Rd
 f9399877f78fc2816b2f173b4d5d494a *man/display_carto_pal.Rd
