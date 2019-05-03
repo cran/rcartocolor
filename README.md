@@ -19,8 +19,8 @@ install.packages("rcartocolor")
 Get the development version from github:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("Nowosad/rcartocolor")
+# install.packages("remotes")
+remotes::install_github("Nowosad/rcartocolor")
 ```
 
 Examples
@@ -51,6 +51,14 @@ display_carto_all()
 
 ![](man/figures/README-example3-1.png)
 
+Only display colorblind friendly palettes:
+
+``` r
+display_carto_all(colorblind_friendly = TRUE)
+```
+
+![](man/figures/README-example4-1.png)
+
 ### **ggplot2**
 
 The **rcartocolor** package contains four **ggplot2** color scales: two for continuous data - `scale_fill_carto_c`, `scale_color_carto_c` and two for discrete data - `scale_fill_carto_d`, `scale_color_carto_d`:
@@ -58,7 +66,7 @@ The **rcartocolor** package contains four **ggplot2** color scales: two for cont
 ``` r
 # devtools::install_github("tidyverse/ggplot2")
 library(sf)
-#> Linking to GEOS 3.5.0, GDAL 2.1.2, proj.4 4.9.2
+#> Linking to GEOS 3.6.1, GDAL 2.3.2, PROJ 4.9.3
 library(spData)
 library(ggplot2)
 ggplot(world, aes(fill = lifeExp)) +
