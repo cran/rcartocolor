@@ -1,15 +1,15 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# rcartocolor
+# rcartocolor <img src="man/figures/logo.png" align="right" height="150" alt="" />
 
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/Nowosad/rcartocolor/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Nowosad/rcartocolor/actions/workflows/R-CMD-check.yaml)
-[![codecov](https://app.codecov.io/gh/Nowosad/rcartocolor/branch/master/graph/badge.svg)](https://app.codecov.io/gh/Nowosad/rcartocolor)
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/rcartocolor)](https://cran.r-project.org/package=rcartocolor)
+[![codecov](https://codecov.io/gh/Nowosad/rcartocolor/branch/master/graph/badge.svg?token=tkiSWsEUYy)](https://app.codecov.io/gh/Nowosad/rcartocolor)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/rcartocolor)](https://cran.r-project.org/package=rcartocolor)
 [![CRAN RStudio mirror
-downloads](http://cranlogs.r-pkg.org/badges/rcartocolor)](https://cran.r-project.org/package=rcartocolor)
+downloads](https://cranlogs.r-pkg.org/badges/rcartocolor)](https://cran.r-project.org/package=rcartocolor)
 <!-- badges: end -->
 
 The goal of `rcartocolor` is to provide color schemes for maps and other
@@ -76,11 +76,8 @@ two for discrete data - `scale_fill_carto_d`, `scale_color_carto_d`:
 ``` r
 # devtools::install_github("tidyverse/ggplot2")
 library(sf)
-#> Linking to GEOS 3.11.1, GDAL 3.6.4, PROJ 9.1.1; sf_use_s2() is TRUE
+#> Linking to GEOS 3.13.0, GDAL 3.10.3, PROJ 9.6.0; sf_use_s2() is TRUE
 library(spData)
-#> To access larger datasets in this package, install the spDataLarge
-#> package with: `install.packages('spDataLarge',
-#> repos='https://nowosad.github.io/drat/', type='source')`
 library(ggplot2)
 ggplot(world, aes(fill = lifeExp)) +
         geom_sf(data = world) +
